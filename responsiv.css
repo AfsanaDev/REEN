@@ -1,0 +1,348 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .nav_header {
+        padding: 20px 0;
+    }
+    .main_menu ul li a {
+        padding: 10px 17px;
+    }
+    .banner_contant h2 {
+        font-size: 50px;
+    }
+    .banner_contant p {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+    .ct_btn {
+        font-size: 20px;
+        padding: 22px 50px;
+    }
+    .sec_pd {
+        padding: 80px 0;
+    }
+    .feature_header h2 {
+        padding-bottom: 0;
+        font-size: 35px;
+    }
+    .feature_header p {
+        font-size: 19px;
+        padding: 20px 0 45px 0;
+    }
+    .contact_heading p {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .sub_form input[ type= submit] {
+        top: 60px;
+        right: 0;
+    }
+    .cp_notice {
+        padding-top: 10px;
+    }
+    .footer_menu ul li a {
+        margin-top: 3px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Header css */
+   .header_logo{
+       margin-top: 8px;
+   }
+   .nav_header {
+    padding: 10px 0;
+    }
+    
+
+    .main_menu ul li a {
+        
+        padding: 10px 6px;
+    }
+    /* Banner css */
+    .ct_btn {
+        font-size: 15px;
+        padding: 18px 36px;
+    }
+    .banner_contant h2 {
+        font-size: 50px;
+    }
+    .banner_contant p {
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 20px;
+    }
+    /* Features css */
+    .feature_header h2 {
+        padding-bottom: 0;
+        font-size: 36px;
+    }
+    .feature_header p {
+        font-size: 18px;
+        padding: 20px 0 48px 0;
+    }
+    .sec_pd {
+        padding: 70px 0;
+    }
+    /* Work css */
+    .work_contant h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .work_contant p {
+        font-size: 18px;
+        padding-bottom: 42px;
+    }
+    .work_item_con h3 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .work_item_con {
+        min-height: 90px;
+    }
+    .work_item {
+        padding-bottom: 60px;
+    }
+    .contact_heading h2 {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+
+    .contact_heading p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .contact_heading .ct_btn {
+        padding: 15px 22px;
+        font-size: 13px;
+    }
+
+    /* All widget css */
+    .sub_form input[ type= submit] {
+        top: 63px;
+        right: 0px;
+    }
+     /* Footer css */
+     .cp_notice {
+        padding-top: 10px;
+    }
+    .footer_menu {
+        padding-top: 3px;
+
+    }
+    
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .social ul li a {
+        padding-left: 32px;
+    }
+    .main_menu ul li a {
+        font-size: 14px;
+        padding: 3px 3px;
+    }
+    .nav_header {
+        padding: 11px 0;
+    }
+    .banner_contant h2 {
+        font-size: 27px;
+    }
+    .banner_contant p {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 20px;
+    }
+    .ct_btn {
+        font-size: 15px;
+        padding: 18px 10px;
+    }
+    .sec_pd {
+        padding: 50px 0;
+    }
+    .feature_header h2 {
+        padding-bottom: 0; 
+        font-size: 21px;
+        
+    }
+    .feature_header p {
+        font-size: 17px;
+        padding: 20px 0 40px 0;
+    }
+    .work_contant h2 {
+        font-size: 23px;
+        padding-bottom: 10px;
+    }
+    .work_contant p {
+        font-size: 17px;
+        padding-bottom: 30px;
+    }
+    .work_item_con h3 {
+        font-size: 17px;
+        padding-top: 25px;
+    }
+    .work_item_con {
+        min-height: 100px;
+        margin-bottom: 20px;
+    }
+    .single_work{
+        margin-bottom: 20px;
+    }
+    .contact_heading h2 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    .contact_heading p {
+        font-size: 17px;;
+        padding-bottom: 25px;
+    }
+    .contact_heading .ct_btn {
+        padding: 13px 15px;
+        font-size: 14px;
+    }
+    .widget_tittle {
+        font-size: 14px;
+        padding-bottom: 14px;
+    }
+    .footer_logo{
+        margin-bottom: 10px;
+    }
+    .footer_widget{
+        padding-bottom: 30px;
+    }
+    .footer_widget p {
+        font-size: 12px;
+    }
+    .sub_form input[ type= submit] {
+        top: 60px;
+        right: 0;
+    }
+    .cp_notice {
+        padding-top: 20px;
+        font-size: 8px;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+    .social{
+        text-align: end;
+    }
+    .social ul li a {
+        padding-left: 48px;
+    }
+    .top_contant {
+        padding: 5px 0;
+    }
+    .nav_header {
+        padding: 5px 0;
+    }
+    .header_logo{
+        padding-top: 17px;
+    }
+    .header_search {
+        padding-top: 21px;
+        padding-left: 0;
+    }
+
+    .main_menu ul li a {
+        padding: 5px 8px;
+    }
+    #banner {
+        height: 80vh;
+    }
+    .banner_contant h2 {
+        font-size: 32px;
+    }
+    .banner_contant p {
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 20px;
+    }
+    .ct_btn {
+        font-size: 16px;
+        padding: 16px 20px;
+    }
+    .sec_pd {
+        padding: 60px 0;
+    }
+    .feature_header h2 {
+        padding-bottom: 0; 
+        font-size: 30px;
+    }
+    .feature_header p {
+        font-size: 19px;
+        line-height: 30px;
+        padding: 20px 0 45px 0;
+    }
+    .feature_contant p {
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+    .work_contant h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .work_contant p {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .work_item_con { 
+        margin-bottom: 20px;
+    }
+    .work_item_con p {
+        padding-bottom: 10px;
+    }
+    .work_item {
+        padding-bottom: 40px;
+    }
+    .single_work{
+        margin-bottom: 20px;
+    }
+    .contact_heading h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .contact_heading p {
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 20px;
+    }
+    .widget_tittle {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .footer_widget{
+        margin-bottom: 30px;
+    }
+    .sub_form input[ type= submit] {
+        top: 62px;
+        right: 0px;
+    }
+    .cp_notice {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+    .footer_menu ul li a {
+        margin-right: -16px;
+        margin-top: 13px;
+    }
+ 
+}
